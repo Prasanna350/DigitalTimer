@@ -1,0 +1,101 @@
+/* Write your CSS here */
+button {
+  cursor: pointer;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  text-align: center;
+  padding: 50px;
+}
+
+.card-container {
+  margin-top: 50px;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+}
+
+.timer-bg-img {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 450px;
+  width: 480px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.timer-white-bg {
+  background-color: white;
+  padding: 5px 20px 5px 20px;
+  border-radius: 200px;
+  text-align: center;
+}
+
+.timer-time {
+  color: #00d9f5;
+  margin-bottom: 0px;
+}
+
+.timer-status {
+  padding: 0px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.timer-management-card {
+  align-self: center;
+}
+
+.start-reset-div {
+  display: flex;
+}
+
+.start-pause-button {
+  background-color: transparent;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-icon {
+  height: 30px;
+}
+
+.btn-text {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 7px;
+}
+
+.setting-timer-head {
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.setting-timer-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.in-de-btns {
+  background-color: transparent;
+  border: 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.set-time-value {
+  background-image: linear-gradient(to right, #6fc9ae, #00d9f5);
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 0px 15px 0px 15px;
+}
